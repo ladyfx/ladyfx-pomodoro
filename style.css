@@ -10,14 +10,14 @@ body {
 }
 
 .pomodoro-container {
-    background: #ffffff; /* Ensure same bright white as above clock */
+    background: #ffffff;
     border-radius: 30px;
     padding: 20px;
     width: 350px;
     height: 400px;
     text-align: center;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), /* Match the outer shadow */
-                inset 0 0 10px rgba(0, 0, 0, 0.03); /* Subtle inset shadow */
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.1),
+    inset 10px 10px 10px rgb(255, 255, 255), -10px 10px 25px rgb(255, 255, 255);
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,6 @@ body {
     box-shadow: 3px 3px 3px -5px rgba(0, 0, 0, 0.15);
     position: relative;
 }
-
 
 .time-display {
     display: flex;
