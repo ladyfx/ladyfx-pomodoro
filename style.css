@@ -1,6 +1,6 @@
 body {
     font-family: 'Host Grotesk', sans-serif;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,9 +16,8 @@ body {
     width: 350px;
     height: 400px;
     text-align: center;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1),
-    inset 15px 15px 10px rgba(255, 255, 255, 0.75), -15px 15px 35px rgba(255, 255, 255, 0.55),
-    inset -1px -1px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.1),
+    inset 10px 10px 10px rgb(255, 255, 255), -10px 10px 25px rgb(255, 255, 255);
     margin: auto;
     display: flex;
     flex-direction: column;
