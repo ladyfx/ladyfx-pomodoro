@@ -27,7 +27,7 @@ body {
 .timer {
     width: 220px;
     height: 220px;
-    border: 20px solid #f2f2f2; /* Subtle light gray outer ring */
+    border: 20px solid #F6F3F8; 
     border-radius: 50%;
     margin: 20px auto;
     display: flex;
