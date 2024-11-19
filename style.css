@@ -10,14 +10,13 @@ body {
 }
 
 .pomodoro-container {
-    background: #ffffff;
+    background: #ffffff; /* Pure white background */
     border-radius: 30px;
     padding: 20px;
     width: 350px;
     height: 400px;
     text-align: center;
-    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.1),
-    inset 10px 10px 10px rgb(255, 255, 255), -10px 10px 25px rgb(255, 255, 255);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Cleaner shadow */
     margin: auto;
     display: flex;
     flex-direction: column;
