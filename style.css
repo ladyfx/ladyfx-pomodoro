@@ -1,6 +1,6 @@
 body {
     font-family: 'Host Grotesk', sans-serif;
-    background-color: #ffffff;
+    background-color: #ffffff; /* Ensure white background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,15 +16,14 @@ body {
     width: 350px;
     height: 400px;
     text-align: center;
-    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.1),
-    inset 10px 10px 10px rgb(255, 255, 255), -10px 10px 25px rgb(255, 255, 255);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 
+                inset 0 0 10px rgba(255, 255, 255, 1); /* Consistent shadow */
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 
 .timer {
     width: 220px;
@@ -57,7 +56,6 @@ body {
     color: #666;
     margin: 0; /* Ensure no unwanted spacing around it */
 }
-
 
 .controls {
     display: flex;
