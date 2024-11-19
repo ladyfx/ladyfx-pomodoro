@@ -29,15 +29,14 @@ body {
 .timer {
     width: 220px;
     height: 220px;
-    border: 15px solid #F6F3F8;
+    border: 20px solid #f2f2f2; /* Subtle light gray outer ring */
     border-radius: 50%;
     margin: 20px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffffff;
-    box-shadow: 3px 3px 3px -5px rgba(0, 0, 0, 0.15);
-    position: relative;
+    background: #ffffff; /* Pure white inner background */
+    box-shadow: none; /* Remove shadows for a clean look */
 }
 
 .time-display {
