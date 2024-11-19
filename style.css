@@ -29,15 +29,15 @@ body {
 .timer {
     width: 220px;
     height: 220px;
-    border: 10px solid #f2f2f2; /* Match the lighter gray outer ring */
+    border: 15px solid #F6F3F8;
     border-radius: 50%;
     margin: 20px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffffff; /* Bright white for inner background */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1), /* Match depth of outer shadow */
-                inset 0 0 8px rgba(0, 0, 0, 0.02); /* Subtle inner glow */
+    background: #ffffff;
+    box-shadow: 3px 3px 3px -5px rgba(0, 0, 0, 0.15);
+    position: relative;
 }
 
 
